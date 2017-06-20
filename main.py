@@ -47,6 +47,7 @@ def encrypt():
     rot = int(rot)
 
     return form.format(text='rotate_string(text, rot)')
+    
 @app.route("/")
 def index():
     return form.format(text='')
